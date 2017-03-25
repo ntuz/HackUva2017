@@ -9,26 +9,13 @@ body {
 	margin: 0;
 }
 
-button {
-	overflow: visible;
-}
-
 button,
-select {
-	text-transform: none;
-}
-
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"]
-	-webkit-appearance: button;
-	cursor: pointer;
-}
-.button {
+.round-button {
 	width:25%;
 }
-.button {
+
+button,
+.round-button-circle {
 	width: 100%;
 	height:0;
 	padding-bottom: 100%;
@@ -39,10 +26,14 @@ input[type="submit"]
     background: #4679BD; 
     box-shadow: 0 0 3px gray;
 }
-.button:hover {
+
+button,
+.round-button-circle:hover {
 	background:#30588e;
 }
-.button button {
+
+button,
+.round-button button {
     display:block;
 	float:left;
 	width:100%;
