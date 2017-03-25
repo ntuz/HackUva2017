@@ -16,16 +16,16 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-button {
+round-button {
 	overflow: visible;
 }
 
-button,
+round-button,
 hover {
 	background color: #f8f8f8;
 }
 
-button,
+round-button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -50,7 +50,7 @@ input[type="submit"] {
 .round-button-circle:hover {
 	background:#30588e;
 }
-.round-button a {
+.round-button round-button {
     display:block;
 	float:left;
 	width:100%;
